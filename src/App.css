@@ -1,0 +1,88 @@
+.app {
+  background-color: red;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .rowChild {
+  width: 100px;
+  height: 100px;
+  background-color: thistle;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.rowTow {
+  align-items: center;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowTow .rowTowChild {
+  width: 100px;
+  height: 100px;
+  background-color: thistle;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 70vh;
+
+
+}
+
+.col .colChild {
+  width: 100px;
+  height: 100px;
+  background-color: thistle;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.colTow {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 70vh;
+
+}
+
+.colTow .colTowChild {
+  width: 100px;
+  height: 100px;
+  background-color: thistle;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
